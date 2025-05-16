@@ -1,0 +1,20 @@
+let score =33;
+console.log(typeof score); // number
+console.log(typeof(score)); // number
+let valueinnumber=Number(score);
+console.log(typeof valueinnumber); // number
+console.log(valueinnumber); // 33
+//"33"= number
+// "33abc"-> NaN
+//true=1
+//false=0
+let isloogedin="nishi";
+let isloggedinvalue=Boolean(isloogedin);
+console.log(isloggedinvalue); // true
+let isloggedinvalue1=Boolean("");
+console.log(isloggedinvalue1); // false
+let isloggedinvalue2=Boolean(0);
+let num=33;
+let num1=String(num);
+console.log(typeof num1); // string
+console.log(num1); // "33"
