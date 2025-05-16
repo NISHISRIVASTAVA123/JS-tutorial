@@ -18,3 +18,23 @@ let num=33;
 let num1=String(num);
 console.log(typeof num1); // string
 console.log(num1); // "33"
+
+//operations
+console.log("1"+2);//12
+console.log(1+"2"); // 12
+console.log(1+2+"3"); //33
+console.log(1+2+"3"+4); // 334
+console.log("1"+2+3+4+5);
+// 12345
+console.log(true); // true
+console.log(++true); // 1
+console.log(true++); // NaN 
+let gamecounter=100
+gamecounter++;
+console.log(gamecounter); // 101
+// read about postfix and prefix
+// postfix: x++
+// prefix: ++x
+// postfix: x--
+// prefix: --x
+
